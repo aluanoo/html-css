@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listas</title>
+</head>
+    <body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Lista Ordenada</h2>
+    <ol type="1"><!--tipos de marcações:
+    1, A,a,I,i-->
+    <li>Acordar as 4:10</li><!--toods os itens da lista tem que estar dentro de li.-->
+     <li>Pegar o ônibus hsp clinica</li>
+    <li>Descer na Faria lima</li>
+    <li>comprar pão</li>
+    <li>Pegar term. Dom Pedro</li>
+    <li>entrar no trabalho 06:00</li>
+    </ol><!--todos os li devem estar dentro de ol.-->
+
+    <h2>Lista desordenada</h2>
+    <ul type="circle"><!--Tipos de marcações;disc,circle,square.-->
+         <li>Comprar sapato</li><!--tanto li ocmo ul, seguem o principio da lista acima.-->
+        <li>Roupas para as crianças</li>
+        <li>Prepara o churras da familia</li>
+        <li>limpar o carro</li>
+        <li>Buscar a nega na académia</li>
+    </ul>
+    <h2>Linguagens de programação</h2>
+    <ol><!--Temos aqui uma lista maior por fora.-->
+        <li>Antigas</li>
+        <ol type="A"><!--Temos aqui uma lista menor dentro da lista maior.-->
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>  
+        </ol><br>
+        <li>Novas</li>
+        <ol type="A" start="5"><!--O start, ele é númerico então só vai funcionar COM NÙMEROS, por mais que a lista esta com letras, o sistema só entende a colocação numerica. neste exemplo colocação 5-->
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>kotlin</li>
+        </ol>
+        </ol>
+
+    <h2>Meus Jogos favoritos</h2>
+    <ol>
+        <li>NES (Nintendinho)</li>
+        <ul type="square"><!--Para adicionar:números, formas ou numeros romanos.'dentro da tag', add "TYPE=circle,square ou disc".
+        OBS:lebre se , se for UL ou OL. -->
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario 3</li>
+                <li>Mario: lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+
+        <li>SNES (Super Nintendo)</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donk Kong</li>
+        </ul>
+
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+     <!--DICA: Podemos mudar varios icones ao mesmo tempo, clicando o curso onde queremos e nas demais linha segurando o botão "alt". Assim trocaremos todos as linha sque foi selecionadas ao mesmo tempo.
+        -->
+        <h2> listas de definições</h2>
+        <dl><!--dl, sing. lista de definições. -->
+            <dt>HTML</dt><!--dt, sign. termo de definição-->
+            <dd>Linguagem de marcação para a criação de site.</dd><!--dd, sign. descrição do termo.-->
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação para criação do design de um site.</dd>
+            <dt>JAVASCRIPT</dt>
+            <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+        </dl>
+    </body>
+</html>

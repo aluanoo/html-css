@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem-capa/favicon - Copia.ico" type="image/x-icon">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu proprio servidor</p>
+
+    <video src="midia/mp4.mp4" width="560" controls poster="imagem-capa/panqueca4000-c.jpg" autoplay loop></video><!--Essa forma simples, não é muito usada por conta dos vários navegadores que existe.-->
+
+    <video width="700"controls width="560" controls poster="imagem-capa/panqueca1000.jpg" autoplay loop><!--Procure sempre usar as TAG:controls, poster(para imagem inicial do video), autoplay(mas não esta funcionando), loop. Essas tags vão contribuir muito para site envolvente.-->
+        <source src="midia/mkv.mkv" type="video/mkv">
+        <source src="midia/webM.webm" type="video/webm">
+        <source src="midia/ogv.ogv" type="video/ogv">
+        <source src="midia/mp4.mp4" type="video/mp4">
+    </video><!--Com com a tag´s SOURCE, podemos criar sim um site, pórem , vai ficar muito mais caro no final.Por isso é interessante colocar no youtube ou em qualquer ou local de armazenamento externo.-->
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><!--TOME CUIDADO COM DIREITOS AUTORAIS, antes de instalar o video verifique os direitos-->
+    
+</body>
+</html>
