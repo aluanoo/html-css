@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family= Lumanosimo & display=swap') ;
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Lumanosimo', cursive;
+    --fonte3: 'Sriracha', cursive;;
+}
+
 * {
     margin: 0px;
     padding: 0px;
